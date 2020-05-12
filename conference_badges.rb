@@ -29,4 +29,5 @@ def printer(arr_of_names)
   puts badges_arr[ii]
   puts rooms_arr[ii]
   ii +=1
+end
 end 
