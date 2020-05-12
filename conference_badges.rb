@@ -24,5 +24,9 @@ def printer(arr_of_names)
   badges_arr=batch_badge_creator(arr_of_names)
   rooms_arr = assign_rooms(arr_of_names)
   names_count = arr_of_names.length
-  
+  ii=0 
+  while (ii<names_count)
+  puts badges_arr[ii]
+  puts rooms_arr[ii]
+  ii +=1
 end 
